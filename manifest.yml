@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: catdogclassifier
+  memory: 1.8GB
+  disk_quota: 1.8GB
+  random-route: true
+  parameters:
+    memory: 1.8GB
+    buildpack: 'python_buildpack'
