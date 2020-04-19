@@ -5,3 +5,29 @@
  #2 User Perception
  Upload the img--> clcik predict---API wil read the input convert into base 64 string---> again converted by API to pixel & save
  locally saved img fed to our model-->Prediction (as per algo)--> send to GUI
+ 
+ #3 API? 
+ Building API
+ API (related to web) or web api is something which is called over a network (Intranet, Internet)
+ Those which is called over a network is called web services
+ Who make Webservices: web application development framework make webservices
+ Framework-->collection of libraries--> collection of methods --- which helps to build web api
+ 
+ Note: Different things is happening whenever there is interaction of your program (app) with network eg api routing, path 
+      generation, temp databse allocation, Secured Socket lay etc which is taken care by built in framework (eg django, flask)
+      on which you have createde web api
+      
+#4 Flask?
+ -Light WADF
+ -3 important things in any web api (MVC)
+ - In flask (MVT)
+  1 GUI (template) 2 Backend (view)  3 Data Model or database arch(Model)
+  eg any project like CRM 
+  -GUI
+  -Backend fun (Add customer, update customer, search customer)
+  - Databse model - For answering DB query
+  * in view(backend): we have routes (its nothing but path for each specific query, eg \add customer)
+==>  So when customer click update button (in template) then route (in view) will activate its path to DB model (Model),  
+  DB model read the query n search for specific query
+  
+      
