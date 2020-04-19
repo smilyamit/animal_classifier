@@ -41,5 +41,27 @@
 
 #5 Flow of Animal classifier
  clientapp.py (View) ==> index.html (template) ==> clientapp.py ==> model.h5 (model)
+ 
+ steps:
+ A client (browser) submits an HTTP request to the server; then the server(app on computer) returns a response to the client
+ GET is used to request data from a specified resource
+ POST is used to send data to a server to create/update a resource (eg while after uploading img, we clcik predict, it sent
+ through http POST request)
+ 
+ As u run clientapp.py u will get a link click to it 
+ by default it will send 
+ action: empty i.e "/", rememebr forward slash is taken as empty in web services
+ Request: GET http method
+ then browser will send GET request with empty action
+ request/method: GET 
+ action : empty
+ 
+ In app.py we have 
+ request: GET (inside GET we have def home fun which will render the index.html file)
+          render template is a flask method which will generate UI
+  - using <form> our GUI interacts with clientapp.py using predict.py (two dot .. is to take file from source)
+  action: predict
+  request/method: POST
+  $ pip freeze > requirements . txt  (to install all require libraries)
   
       
