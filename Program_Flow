@@ -1,0 +1,7 @@
+#1 Reverse orer flow (From coder persception)
+  Buid CNN model --> save model -->Prediction ? (with the help of API, as API will take care of Prediction)
+  prediction--> API--> how to send input to API--->(using GUI)
+  
+ #2 User Perception
+ Upload the img--> clcik predict---API wil read the input convert into base 64 string---> again converted by API to pixel & save
+ locally saved img fed to our model-->Prediction (as per algo)--> send to GUI
