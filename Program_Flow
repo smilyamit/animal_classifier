@@ -21,13 +21,25 @@
  -Light WADF
  -3 important things in any web api (MVC)
  - In flask (MVT)
-  1 GUI (template) 2 Backend (view)  3 Data Model or database arch(Model)
+  1 GUI (template) 2 Backend (view)  3 Model or data based trained model
+  
   eg any project like CRM 
-  -GUI
-  -Backend fun (Add customer, update customer, search customer)
-  - Databse model - For answering DB query
+  -GUI: For user interaction (In .html file, inside <style> all css code </style>, inside <script> all js code <script>
+  -Backend fun (Add customer, update customer, search customer): routing+ business logic
+  -model - For answering DB query
+  
   * in view(backend): we have routes (its nothing but path for each specific query, eg \add customer)
 ==>  So when customer click update button (in template) then route (in view) will activate its path to DB model (Model),  
   DB model read the query n search for specific query
+  
+  #note1 .h5 is used for to save keras trained (learned weights of given model)file in keras
+   note2 cors: A Flask extension for handling Cross Origin Resource Sharing (CORS), making cross-origin AJAX possible
+         Browser does not allow cross domain AJAX requests due to security issues
+         What is a cross origin request?
+        -A web application executes a cross-origin HTTP request when it requests a resource that has a different origin 
+        (domain, protocol, or port)
+
+#5 Flow of Animal classifier
+ clientapp.py (View) ==> index.html (template) ==> clientapp.py ==> model.h5 (model)
   
       
